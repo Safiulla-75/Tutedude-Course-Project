@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form validation system</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="success"></div>
+  <div id="errors"></div>
+  <div class="wrapper">
+    <div class="formelement">
+      <label for="Email">Email</label>
+      <input type="text" id="Email" name="Email" required>
+    </div>
+
+    <div class="formelement">
+      <label for="phoneno">Phone-Number</label>
+      <input type="text" id="phoneno" name="phoneno" required>
+    </div>
+
+    <div class="formelement">
+      <label for="password">Password</label>
+      <input type="text" id="password" name="password">
+    </div>
+
+    <div class="formelement">
+      <label for="confirmpassword">Confirm-Password</label>
+      <input type="text" id="confirmpassword" name="confirmpassword">
+    </div>
+    <input type="submit" id="submitbutton">
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
